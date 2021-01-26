@@ -9,7 +9,7 @@ const Item = ({
   backgroundImg,
   leftBtnTxt,
   leftBtnLink,
-  rightBtnText,
+  rightBtnTxt,
   rightBtnLink,
   twoButtons,
   first,
@@ -32,7 +32,7 @@ const Item = ({
           <div className="item__buttons">
             <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
             {twoButtons && (
-              <Button imp="seondary" text={rightBtnText} link={rightBtnLink} />
+              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
             )}
           </div>
           {first && (
