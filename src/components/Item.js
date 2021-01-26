@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import "./Item.css";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const Item = ({
@@ -14,7 +15,12 @@ const Item = ({
   first,
 }) => {
   return (
-    <div className="item" style={{}}>
+    <div
+      className="item"
+      style={{
+        backgroundImage: `url(${backgroundImg})`,
+      }}
+    >
       <div className="item__container">
         <div className="item__text">
           <p>{title}</p>
