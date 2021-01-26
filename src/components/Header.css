@@ -21,3 +21,18 @@
   display: flex;
   justify-content: center;
 }
+
+.header__center > p {
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+}
+
+.header__right > p {
+  margin: 10px;
+}
